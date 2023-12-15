@@ -1,7 +1,7 @@
 const pokeAPI = {}
 
 function convertPokeAPIDetailtoPokemon (pokeDetail) {
-    const pokemon = new Pokemon();
+    const pokemon = new PokemonModel();
     pokemon.number = pokeDetail.id;
     pokemon.name = pokeDetail.name;
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name);

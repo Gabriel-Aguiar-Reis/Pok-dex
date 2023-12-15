@@ -107,6 +107,12 @@
     color: #ffffff;
 }
 
+.pokemon-details {
+    display: flex;
+    justify-content: center;
+
+}
+
 .pokemon .name {
     font-size: 1.2rem;
     text-transform: capitalize;
