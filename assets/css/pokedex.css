@@ -105,6 +105,7 @@
     padding: 1rem;
     border-radius: .7rem;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .pokemon-details {
@@ -172,4 +173,5 @@
     border: none;
     border-radius: .9rem;
     font-size: 1rem;
+    cursor: pointer;
 }
